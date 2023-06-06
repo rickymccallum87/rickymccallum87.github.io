@@ -7,8 +7,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
   <style>
-    input {
-      width: 100%;
+    .indent {
+      margin-left: 16px;
+    }
+
+    @media (min-width: 480px) {
+      .list-columned {
+        columns: 2;
+        -webkit-columns: 2;
+        -moz-columns: 2;
+      }
     }
   </style>
   <title>Resume | Ricky McCallum</title>
@@ -46,7 +54,7 @@
 
       <section>
         <h2>Skills</h2>
-        <ul style="columns: 2; -webkit-columns: 2; -moz-columns: 2;">
+        <ul class="list-columned">
           <li>WordPress</li>
           <li>Bootstrap</li>
           <li>HTML, CSS, JS</li>
@@ -66,31 +74,31 @@
         <aside>
           <p>See a full list of <a href="https://rickymccallum.com/integrations">WordPress integrations</a> completed at Wood Street.</p>
         </aside>
-        <p style="margin-left: 16px;">Develop custom WordPress themes with Bootstrap and Advanced Custom Fields. Integrate custom post types, migrate blogs and site content. Create in-house starter theme. Maintain dozens of client websites with backups, updates, security, and ongoing development.</p>
+        <p class="indent">Develop custom WordPress themes with Bootstrap and Advanced Custom Fields. Integrate custom post types, migrate blogs and site content. Create in-house starter theme. Maintain dozens of client websites with backups, updates, security, and ongoing development.</p>
 
         <p>
           <strong>Web Developer</strong>
           <br><em>September 2017 - Present &nbsp;|&nbsp; Self-employed</em>
         </p>
-        <p style="margin-left: 16px;">Create websites for local small businesses and entrepreneurs (pharmacies, restaurants, veterinarians, authors). Build dynamic sites with WordPress and Bootstrap. Build static sites with Hugo and Netlify CMS.</p>
+        <p class="indent">Create websites for local small businesses and entrepreneurs (pharmacies, restaurants, veterinarians, authors). Build dynamic sites with WordPress and Bootstrap. Build static sites with Hugo and Netlify CMS.</p>
 
         <p>
           <strong>Technical Support</strong>
           <br><em>April 2016 - Present &nbsp;|&nbsp; Self-employed</em>
         </p>
-        <p style="margin-left: 16px;">Small help-desk business. Set up or troubleshoot hardware and software. Remove viruses, adware, spyware. Audit startup processes and services. Perform backups.</p>
+        <p class="indent">Small help-desk business. Set up or troubleshoot hardware and software. Remove viruses, adware, spyware. Audit startup processes and services. Perform backups.</p>
 
         <p>
           <strong>STEM Educator</strong>
           <br><em>July 2013 - June 2019</em>
         </p>
 
-        <p style="margin-left: 16px;">
+        <p class="indent">
           <em>STEM Instructor​ &nbsp;|&nbsp; Silver Knights Enrichment &nbsp;|&nbsp; Columbia, MD</em>
           <br>Lead eight-week courses at schools around Maryland, each with 5-20 children, grades K-5. Supervise students’ building and coding Lego robotics.
         </p>
 
-        <p style="margin-left: 16px;">
+        <p class="indent">
           <em>STEM Ambassador​ &nbsp;|&nbsp; Patriots Technology Training Center &nbsp;|&nbsp; Largo, MD</em>
           <br>Instruction of 3D graphics creation suite on conference floor and in classrooms.
         </p>
@@ -99,7 +107,7 @@
           <strong>Assembly Technician</strong>
           <br><em>August 2011 - February 2018 &nbsp;|&nbsp; Flame Enterprises, Inc. &nbsp;|&nbsp; Frederick, MD</em>
         </p>
-        <p style="margin-left: 16px;">Assemble electro-mechanical switches. Package and ship product. Manage inventory database.</p>
+        <p class="indent">Assemble electro-mechanical switches. Package and ship product. Manage inventory database.</p>
       </section>
     </article>
 
